@@ -3,7 +3,7 @@ name = "comfyui-diffusers"
 description = "This extension enables the use of the diffuser pipeline in ComfyUI. It also includes nodes related to Stream Diffusion."
 version = "1.0.2"
 license = { file = "LICENSE" }
-dependencies = ["diffusers[torch]", "accelerate", "transformers", "safetensors", "omegaconf", "pytorch_lightning", "xformers", "git+https://github.com/VikramxD/StreamDiffusion.git@main#egg=streamdiffusion[tensorrt]"]
+dependencies = ["diffusers[torch]", "accelerate", "transformers", "safetensors", "omegaconf", "pytorch_lightning", "xformers", "git+https://github.com/VikramxD/StreamDiffusion.git"]
 
 [project.urls]
 Repository = "https://github.com/VikramxD/ComfyUI-Diffusers"
